@@ -2,3 +2,8 @@ name = "ttttgggg"
 main = "./dist/index.js"
 compatibility_date = "2024-11-11"
 compatibility_flags = ["nodejs_compat_v2"]
+
+# AI Binding（CF Workers AI 内部绑定）
+ai = [
+  { binding = "AI" }
+]
